@@ -14,8 +14,7 @@ def get_meaning():
     value = inputElem.get()
     # print(dictionary.meaning(value)
     word = dictionary.meaning(value)
-    print(word.values()[0])
-    # Label(root, text=, font=('Arial', 18)).grid(row=3, column=0)
+    Label(root, text=word, font=('Arial', 18)).grid(row=3, column=0)
 
 # welcome text
 welcomeTextLb = Label(root, text='Welcome!!', font=('Arial', 18))
